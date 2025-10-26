@@ -18,7 +18,6 @@ int main()
         int monthCode = 5;
         int centuryCode = 6;
         int dayCode = 1;
-        int leapYear = 0;
         int sum = yearCode + monthCode + centuryCode + dayCode;
 
         switch (sum % 7)
